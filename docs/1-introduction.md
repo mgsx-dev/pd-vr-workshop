@@ -45,6 +45,9 @@ menu **Find/Find...**
 * [CTRL+Z] : IMPORTANT : one only undo level
 * [CTRL+SHIFT+1] : create an object (autoconnect first outlet of current sleection)
 * [CTRL+SHIFT+...] : see menu **
+* [CTRL+E] : switch to edit mode / play mode
+* [CTRL+Click Left] : contextual play mode (usefull to change control in edit mode)
+* [Click left] (in play mode) : act on controller or send message
 
 ## PD Resources
 

@@ -1,6 +1,10 @@
 # Working with audio files
 
-TODOC working with external files, the path problem : relative to the patch ??? or not ???
+Note that in Pure Data, you can use relative paths or absolute paths. Absolute paths should be avoided in order to share your works.
+Relative path are relative to the patch or abstraction reading the file. For instance if a wav file is in the parent folder of
+the patch, its path will be **../myFile.wav**. A common pitfall is when an abstraction is not in the same directory as the patch tht use this abstraction : if the file is loaded by the main patch, the path should be relative to the main patch. If the file is loaded by the abstraction, the path should be relative to the abstraction even if the message containing the path is sent from the main patch.
+This behavior is usefull to pack both abstraction and external files as a library : any patch using the abstraction don't have to resolve paths to abstraction's own data.
+For beginners, it's recommended to have all files (PD files and audio files) in a unique folder.
 
 There is two ways to load an audio file :
 
@@ -11,8 +15,6 @@ Convenient abstractions based on soundfiler are provided to simplify sample mani
 
 * [sampler1~] : a mono sampler
 * [sampler2~] : a stereo sampler
-
-TODO : finalize the stereo version with absolute time based play and code the mono version.
 
 ## Audio file formats
 

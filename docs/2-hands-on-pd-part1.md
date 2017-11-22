@@ -25,6 +25,19 @@ Provided atoms (TODO get from PFXR) :
 * triangle
 * saw
 
+### Debugging audio
+
+Built-in tools
+
+* Meter
+* env~
+* arrays (complicated)
+
+Provided atoms :
+
+* [oscilloscope] : display an audio signal continuously
+* [capture] : display a snapshot of an audio signal (manual triger)
+
 ## About audio synthesis
 
 ### additive synthesis

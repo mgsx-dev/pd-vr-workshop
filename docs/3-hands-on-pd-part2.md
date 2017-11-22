@@ -5,7 +5,23 @@
 TODOC : ordering right to left convention
 
 TODOC : list vs message ... ?
-  
+
+### GUI controls
+
+Built-in :
+
+* button, toggle
+* sliders, selectors
+
+
+### Debugging events
+
+Built-in tools
+
+* [print name]
+* number box, bang, ...
+
+
 ## Envelops and messages
 
 Until then we have a continuous signal. Now we want to trigger some sound.

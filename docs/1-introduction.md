@@ -40,6 +40,8 @@ help system : same patch name with **-help.pd** suffix
 
 menu **Find/Find...**
 
+TODOC note about comments in PD (help other developer or yourself after month of pause ...)
+
 ## PD GUI
 
 * [CTRL+Z] : IMPORTANT : one only undo level

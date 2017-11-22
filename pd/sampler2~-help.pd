@@ -1,0 +1,15 @@
+#N canvas 1226 367 450 365 10;
+#X msg 82 64 play 0 1 1;
+#X obj 54 307 dac~;
+#X obj 53 222 sampler2~ foots;
+#X msg 109 120 play 0.2 0.25 1;
+#X msg 96 91 play 0 1 2;
+#X msg 116 150 play 0.2 0.25 0.5;
+#X msg 53 39 load foots-stereo.wav 24000;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 5 0 2 0;
+#X connect 6 0 2 0;

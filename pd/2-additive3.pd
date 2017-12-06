@@ -1,0 +1,35 @@
+#N canvas 807 310 617 662 10;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array1 515 float 2;
+#X coords 0 1 515 -1 200 140 1;
+#X restore 362 348 graph;
+#X obj 80 240 hsl 128 15 10 2000 1 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 5300 1;
+#X floatatom 96 263 5 0 0 0 - - -, f 5;
+#X obj 52 359 *~ 0.1;
+#X obj 52 415 dac~;
+#X obj 53 315 tabosc4~ array1;
+#X msg 242 118 \; array1 sinesum 512 0.2 0.1 0.33 0.1 0.45 0.12 0.11
+\;;
+#X obj 250 20 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 250 40 switch~;
+#X obj 52 88 osc~ 4;
+#X obj 52 123 norm~ -1 1;
+#X obj 52 280 +~ 0;
+#X obj 55 30 hsl 128 15 0.1 100 1 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 8000 1;
+#X floatatom 71 53 5 0 0 0 - - -, f 5;
+#X obj 53 156 lerp~ 200 253;
+#X connect 1 0 2 0;
+#X connect 1 0 11 1;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
+#X connect 5 0 3 0;
+#X connect 7 0 8 0;
+#X connect 9 0 10 0;
+#X connect 10 0 14 0;
+#X connect 11 0 5 0;
+#X connect 12 0 13 0;
+#X connect 12 0 9 0;
+#X connect 14 0 11 0;

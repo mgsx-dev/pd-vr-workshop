@@ -1,0 +1,5 @@
+#N canvas 367 407 450 300 10;
+#X text 77 24 Right click / open following examples :;
+#X obj 68 110 2-additive2;
+#X obj 68 140 2-additive3;
+#X obj 68 80 2-additive;

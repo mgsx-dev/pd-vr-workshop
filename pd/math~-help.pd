@@ -1,0 +1,15 @@
+#N canvas 435 344 876 401 10;
+#X obj 88 68 norm~ -1 1;
+#X obj 234 69 lerp~ 100 300;
+#X obj 511 83 mix~;
+#X obj 453 32 osc~ 440;
+#X obj 523 32 phasor~ 440;
+#X obj 589 66 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 6000 1;
+#X obj 586 86 sig~;
+#X obj 451 157 oscilloscope;
+#X connect 2 0 7 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 1;
+#X connect 5 0 6 0;
+#X connect 6 0 2 2;

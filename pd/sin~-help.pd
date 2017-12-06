@@ -1,0 +1,12 @@
+#N canvas 869 568 635 389 10;
+#X obj 135 179 oscilloscope;
+#X obj 134 114 sin~ 440;
+#X obj 541 208 dac~;
+#X obj 541 177 *~ 0;
+#X obj 566 148 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X connect 1 0 0 0;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;
+#X connect 3 0 2 1;
+#X connect 4 0 3 1;

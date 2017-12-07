@@ -4,7 +4,8 @@ Note that in Pure Data, you can use relative paths or absolute paths. Absolute p
 Relative path are relative to the patch or abstraction reading the file. For instance if a wav file is in the parent folder of
 the patch, its path will be **../myFile.wav**. A common pitfall is when an abstraction is not in the same directory as the patch tht use this abstraction : if the file is loaded by the main patch, the path should be relative to the main patch. If the file is loaded by the abstraction, the path should be relative to the abstraction even if the message containing the path is sent from the main patch.
 This behavior is usefull to pack both abstraction and external files as a library : any patch using the abstraction don't have to resolve paths to abstraction's own data.
-For beginners, it's recommended to have all files (PD files and audio files) in a unique folder.
+
+**For beginners (and this lessons), it's recommended to have all files (PD files and audio files) in a unique folder.**
 
 There is two ways to load an audio file :
 
@@ -16,6 +17,8 @@ Convenient abstractions based on soundfiler are provided to simplify sample mani
 * [sampler1~] : a mono sampler
 * [sampler2~] : a stereo sampler
 
+TODO message loop !
+
 ## Audio file formats
 
 Pure Data only support raw PCM encoding for the following file formats :
@@ -26,8 +29,8 @@ Pure Data only support raw PCM encoding for the following file formats :
 
 In order to work with other formats/encoding (MP3, OGG, ...) you'll need to convert them with some tools :
 
-* Windows : ???
-* Mac : ???
+* Windows : Audacity
+* Mac : Audacity
 * Linux : Audacity
 
 ### Audio format
@@ -42,7 +45,8 @@ In order to work with other formats/encoding (MP3, OGG, ...) you'll need to conv
 * free audio banks :
     * https://freesound.org
 * audio file generators :
-    * TODOC PFXR, SFXR, BFXR
+	* [BFXR](https://www.bfxr.net/) : web based
+	* [PFXR](http://www.mgsx.net/articles/pd/bfxr-like-with-pd/bfxr-like-with-pd.html) : PD based
 
 ### About licencing
 

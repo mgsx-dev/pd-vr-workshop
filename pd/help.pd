@@ -1,4 +1,4 @@
-#N canvas 591 210 742 814 10;
+#N canvas 585 218 742 814 10;
 #X obj 467 77 math-help;
 #X obj 465 103 vec3-help;
 #X text 50 28 PD vanilla Built-in objects;
@@ -56,3 +56,6 @@
 #X obj 108 230 -~;
 #X obj 146 229 *~;
 #X obj 189 226 /~;
+#X obj 246 157 min;
+#X obj 290 158 max;
+#X text 228 241 switch~;

@@ -2,9 +2,7 @@
 
 ## About the events graph
 
-TODOC : ordering right to left convention
-
-TODOC : list vs message ... ?
+see **exmamples/1-audio-vs-messages.pd** (right part)
 
 ### GUI controls
 
@@ -13,6 +11,9 @@ Built-in :
 * button, toggle
 * sliders, selectors
 
+Provided :
+
+* vec3
 
 ### Debugging events
 
@@ -28,7 +29,7 @@ Until then we have a continuous signal. Now we want to trigger some sound.
 
 Note that envelops are not restricted to amplitude modulation but could be used to shape frequencies or any other things.
 
-see examples.
+see examples : **ad~.pd** and **asd~.pd**
 
 ## Metro and random
 
@@ -43,6 +44,7 @@ see example
 ## Links between audio graph and events flow
 
 * from events to audio :
-  * TODOC sig~, line~, vline~, [filters]~
+  * sig~, line~, vline~, [filters]~ (lop~)
 * from audio to events :
-  * TODOC env~, threshold~, ... 
+  * env~, threshold~, ... 
+

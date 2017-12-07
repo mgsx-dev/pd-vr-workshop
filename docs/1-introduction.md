@@ -5,9 +5,7 @@
 Created by [Miller Puckette](https://fr.wikipedia.org/wiki/Miller_Puckette) at IRCAM :
 
 * 1980 : Max (Max msp)
-* 1990 : Pure Data (pd) as an open fork of Max MSP
-
-https://fr.wikipedia.org/wiki/Pure_Data
+* 1990 : [Pure Data](https://fr.wikipedia.org/wiki/Pure_Data) (pd) as an open source fork of Max MSP
 
 Derivated works :
 
@@ -20,27 +18,30 @@ Derivated works :
     * [gdx-pd](https://github.com/mgsx-dev/gdx-pd)
 * [WebPD](https://github.com/sebpiq/WebPd) : Web audio API port (support only a subset of PD vanilla)
 * PD extended : no longer maintained (do not use it), use pd vanilla instead.
+* [Camomile](https://github.com/pierreguillot/Camomile) to use pd patch as VST plugins in DAW
+* [L2Ork](http://l2ork.music.vt.edu/main/)
+  * [Youtube](https://www.youtube.com/watch?v=xc5I3wbwH_4)
+
 
 ## Examples
 
-Some applications / video games based on PD :
+Some [MGSX](http://www.mgsx.net/) applications based on PD :
 
-* [rainstick](https://github.com/mgsx-dev/rainstick)
-* [gdx-pd demo](https://github.com/mgsx-dev/gdx-pd-demo)
-* [rest your eyes](https://mgsx.itch.io/eyes-rest)
-* TODOC algoviz ...
+* [rainstick](https://github.com/mgsx-dev/rainstick) illustrate interactive prodedural audio with Puredata
+  * [Youtube](https://www.youtube.com/watch?v=dQfsuBqcNso)
+  * [Google Play](https://play.google.com/store/apps/details?id=net.mgsx.rainstick)
+* [gdx-pd demo](https://github.com/mgsx-dev/gdx-pd-demo) illustrates various usage of Puredata in video games.
+  * [Google Play](https://play.google.com/store/apps/details?id=net.mgsx.pd.demo)
+* [rest your eyes](https://mgsx.itch.io/eyes-rest) illustrates procedural audio with WebPD in a game jam context.
+* [PPP](http://ppp.mgsx.net) illustrates how to make music with Puredata
+  * [Youtube](https://www.youtube.com/watch?v=XEymJGuHoMU)
 
 ## PD help
 
-in PD : **Help/List of objects...**
-
-right click on a pd object to get help
-
-help system : same patch name with **-help.pd** suffix
-
-menu **Find/Find...**
-
-TODOC note about comments in PD (help other developer or yourself after month of pause ...)
+* Get the list of PD objects : **Help/List of objects...**
+* right click on a pd object to get help (you can write your own help file by creating a patch with the same name suffixed by **-help.pd**)
+* find an object by its name : menu **Find/Find...**
+* watchout the PD console (the main window) : it print some errors.
 
 ## PD GUI
 
@@ -54,6 +55,18 @@ TODOC note about comments in PD (help other developer or yourself after month of
 ## PD Resources
 
 TODOC some usefull resources about PD ...
+
+* [Textual Tutorials](http://www.pd-tutorial.com/english/index.html)
+* [Video Tutorials](https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC)
+* [a SFX generator tutorial](http://www.mgsx.net/articles/pd/bfxr-like-with-pd/bfxr-like-with-pd.html)
+
+
+# Common pitfall & known issues
+
+* Undo limited to 1 level.
+* Mouse pointer coordinates bugs with recent OS grouping windows in tabs (Windows 10, recent versions of OSX)
+
+
 
 
 

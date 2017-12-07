@@ -16,15 +16,16 @@ Based on these information you have to improve immersion by implementing the aud
 * Spawn procedural sound FX on map toggle
 * Implement an audio chest detector
 * Implement chest as audio emitter with head related 3D spatialization
-* Add sample based ambiant soundscape based on environement
-* Spawn sample based sounds based on player movements
+* Add sample based ambiant soundscape and effects based on environement
+* Spawn sample based sounds based on player movements and effects based on environement
 
 ## Plan
 
 * Course 1 : Hands on PD through procedural audio (4h)
-* Personal work : audio samples search (varying time between the 2 courses)
+* Personal work : audio samples search and project improvements (4h in 2 weeks)
 * Course 2 : Audio samples integration and project finalization (4h)
-
+* Personal work : project fix, cleanup and documentation (4h in 2 weeks)
+* Project submission.
 
 # Open World
 

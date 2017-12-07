@@ -1,6 +1,16 @@
 
 # Hands on VR
 
+Some prerequisites :
+* Browse to the [workshop repository page](https://github.com/mgsx-dev/pd-vr-workshop) and download as ZIP.
+  * If you're familiar with GIT and Github, just clone this repository on your computer.
+  * If not, just download it as ZIP and extract it on your computer.
+* You need to [download and extract the latest version](https://github.com/mgsx-dev/pd-vr-workshop/releases) of the game and follow instructions provided in the zip file.
+* required software :
+  * [Pure Data vanilla 0.47.x](https://puredata.info/downloads/pure-data/releases)
+  * Java 1.7+
+  * [Audacity](http://www.audacityteam.org/download/)
+
 ## Subject
 
 This course is based on a concrete situation : You will work on an open world 3D game under development.

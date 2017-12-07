@@ -5,8 +5,8 @@ A convenient library is provided to speedup developement, see **help.pd**
 # Workshop
 
 Let's play with the openworld !
-* First you need to [download](http://www.mgsx.net/hands-on-vr/releases/TODO) the game and follow instructions provided in the zip file.
-* Then open both the game and the PD template file : **openworld-0-empty.pd**
+
+* Open both the game and the PD template file : **openworld-0-empty.pd**
 * It's highly recommended to save your work in different files (like openworld-1.pd, openworld-2.pd, ... and so on) during the workshop.
 * Some basic examples are provided for each steps, you can copy them and use it as a based in your project patch.
 

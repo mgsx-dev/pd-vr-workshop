@@ -54,7 +54,7 @@ Some [MGSX](http://www.mgsx.net/) applications based on PD :
 
 ## PD Resources
 
-TODOC some usefull resources about PD ...
+Some usefull resources about PD :
 
 * [Textual Tutorials](http://www.pd-tutorial.com/english/index.html)
 * [Video Tutorials](https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC)

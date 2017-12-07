@@ -1,4 +1,4 @@
-#N canvas 668 218 568 506 10;
+#N canvas 665 222 568 506 10;
 #X obj 139 361 sampler1~ foots;
 #X obj 139 434 dac~;
 #X msg 111 140 play 2.122 2.5 1;
@@ -56,7 +56,7 @@
 #X connect 4 0 3 0;
 #X restore 217 10 pd walking;
 #X floatatom 217 32 5 0 0 0 - - -, f 5;
-#X obj 217 51 / 15;
+#X obj 217 55 / 2.5;
 #X connect 0 0 1 0;
 #X connect 0 0 1 1;
 #X connect 2 0 0 0;

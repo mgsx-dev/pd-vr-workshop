@@ -4,7 +4,7 @@
 
 * workshop documentation pages in [docs folder](docs)
 * workshop pure data patches in [pd folder](pd)
-* workshop game executable in [release section](releases)
+* workshop game executable in [release section](https://github.com/mgsx-dev/pd-vr-workshop/releases)
 
 ### Contributions
 

@@ -19,7 +19,7 @@ The game is sending events and information based on its current state.
 
 Based on these information you have to improve immersion by implementing the audio part with Puredata.
 
-![openworld](img/openworld.png)
+![openworld](img/cover.png)
 
 ## Goals
 

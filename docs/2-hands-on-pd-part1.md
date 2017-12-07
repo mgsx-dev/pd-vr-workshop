@@ -21,7 +21,7 @@ Some considerations :
 
 Let's see how the audio graph works in PD
 
-see **exmamples/1-audio-vs-messages.pd** (left part)
+see **examples/1-audio-vs-messages.pd** (left part)
 
 
 ## About the audio graph

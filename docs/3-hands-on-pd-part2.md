@@ -2,7 +2,7 @@
 
 ## About the events graph
 
-see **exmamples/1-audio-vs-messages.pd** (right part)
+see **examples/1-audio-vs-messages.pd** (right part)
 
 ### GUI controls
 

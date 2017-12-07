@@ -1,8 +1,8 @@
 # Pure Data VR - Workshop #
 
-![openworld](img/cover.png)
+![openworld](decs/img/cover.png)
 
-* workshop documentation pages in [doc folder](doc)
+* workshop documentation pages in [docs folder](docs)
 * workshop pure data patches in [pd folder](pd)
 * workshop game executable in [release section](releases)
 

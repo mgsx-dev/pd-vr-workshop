@@ -17,7 +17,6 @@ Convenient abstractions based on soundfiler are provided to simplify sample mani
 * [sampler1~] : a mono sampler
 * [sampler2~] : a stereo sampler
 
-TODO message loop !
 
 ## Audio file formats
 

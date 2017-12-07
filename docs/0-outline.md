@@ -41,7 +41,7 @@ Information provided by the game :
 * some messages sent continuously (60 time per seconds) including :
   * camera information (position, orientation)
   * The 3 nearest chest (position, a seed and occlusion factor)
-  * environement information (altitude, flora factor)
+  * environement information (altitude, forest and water factor)
   * player related information (speed, kind of movement : walking, swiming, diving...)
 
 

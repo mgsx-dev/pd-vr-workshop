@@ -51,6 +51,7 @@ Some [MGSX](http://www.mgsx.net/) applications based on PD :
 * [CTRL+E] : switch to edit mode / play mode
 * [CTRL+Click Left] : contextual play mode (usefull to change control in edit mode)
 * [Click left] (in play mode) : act on controller or send message
+* [Shift + Click left] (in play mode) : fine grain control
 
 ## PD Resources
 

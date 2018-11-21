@@ -53,14 +53,22 @@ goals :
 * integrate other audio sample files
 * implements other player states : walk in water, swimming, diving
 
+## Music from the house
+
+see example **openworld-6-house.pd**
+
+goals :
+* advanced 3D spatialization with distance falloff and filters
+* use reverberation to simulate environnement reflections
+
 # Project finalization
 
-From all workshop above, make a final Pure Data patch **openworld-6-final.pd** based on **openworld-0-empty.pd** file including :
+From all workshop above, make a final Pure Data patch **openworld.pd** based on **openworld-0-empty.pd** file including :
 * the map toggle on/off sound
 * chest detector could be enabled only when map toggle is on (to prevent sounds overlap)
-* mix both ambiant soundscape and player movements
+* mix both ambiant soundscape, player movements, chest emitters and music from the house
 * all sounds should be affected by an underwater effect.
 * adjust all signals amplitude to have a good balance (avoid saturations)
 
-This final patch should directly works by opening it and the game.
+The submitted project should directly work by opening both the final patch and the game.
 

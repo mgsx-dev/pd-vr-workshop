@@ -23,6 +23,13 @@ Let's see how the audio graph works in PD
 
 see **examples/1-audio-vs-messages.pd** (left part)
 
+## Flow, Nodes and Connections
+
+* Nodes may have one or many inputs at top, each input as a different meaning : very similar to method parameter in text programming.
+* Nodes may have one or many outputs at bottom, each output as a different meaning : like a method returning several values in text programming.
+* Flow is top-down : messages or audio stream goes from top to bottom, from a node output to another node input.
+* Node help act as its documentation and what happens inside a node is the implementation.
+
 
 ## About the audio graph
 
@@ -89,4 +96,7 @@ see example : **examples/2-substractive.pd**
 
 Other categories are beyond the scope of this lesson : granular synthesis, ...
 
+## Common pitfalls
+
+* applying an audio filter on a sinusoidal signal (single frequency) act more or less as a on/off switch and is pointless. It has more interest on complex signals with lot of differents frequencies.
 

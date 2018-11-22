@@ -1,4 +1,4 @@
-#N canvas 762 479 669 409 10;
+#N canvas 759 483 669 409 10;
 #X obj 255 35 r map;
 #X obj 251 360 dac~;
 #N canvas 475 437 395 449 network 0;
@@ -31,7 +31,7 @@
 #X connect 14 0 9 0;
 #X restore 11 14 pd network;
 #X obj 255 77 select 0 1;
-#N canvas 469 423 403 251 off 1;
+#N canvas 466 427 403 251 off 0;
 #X obj 151 34 inlet;
 #X obj 151 150 *~;
 #X obj 151 172 outlet~;
@@ -42,7 +42,7 @@
 #X connect 3 0 1 1;
 #X connect 4 0 1 0;
 #X restore 183 169 pd off;
-#N canvas 229 743 373 243 on 1;
+#N canvas 226 747 373 243 on 0;
 #X obj 151 34 inlet;
 #X obj 151 150 *~;
 #X obj 151 172 outlet~;

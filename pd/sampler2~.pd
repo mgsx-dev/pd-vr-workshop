@@ -1,4 +1,4 @@
-#N canvas 428 159 1121 840 10;
+#N canvas 1091 227 1121 840 10;
 #X obj 305 15 inlet;
 #X obj 16 107 soundfiler;
 #X obj 576 770 outlet~;
@@ -35,7 +35,8 @@
 #X obj 16 47 list append \$1 table-\$0-l table-\$0-r;
 #X obj 15 142 array define table-\$0-l;
 #X obj 15 172 array define table-\$0-r;
-#X msg 16 75 read -resize \$1 \$2 \$3;
+#X text 95 107 hard limit at 30 MegaSamples;
+#X msg 16 75 read -resize -maxsize 3e+07 \$1 \$2 \$3;
 #X connect 0 0 28 0;
 #X connect 3 0 33 0;
 #X connect 4 0 12 0;
@@ -80,5 +81,5 @@
 #X connect 29 0 16 1;
 #X connect 30 0 31 1;
 #X connect 31 0 32 0;
-#X connect 33 0 36 0;
-#X connect 36 0 1 0;
+#X connect 33 0 37 0;
+#X connect 37 0 1 0;

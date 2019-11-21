@@ -12,7 +12,7 @@ There is two ways to load an audio file :
 * [readsf~] : direct read from files : mainly for big sound files, limited control on playback (play/stop only).
 * [soundfiler] : load sound file into arrays : mainly for small files, full control on playback.
 
-Convenient abstractions based on soundfiler are provided to simplify sample manipulation in pd (see corresponding help files) :
+Convenient abstractions based on soundfiler are provided to simplify sample manipulation in pd (see corresponding help files), it's highly recommended to use them :
 
 * [sampler1~] : a mono sampler
 * [sampler2~] : a stereo sampler
@@ -49,7 +49,7 @@ In order to work with other formats/encoding (MP3, OGG, ...) you'll need to conv
 
 ### About licencing
 
-Note about licences : take care of the licences of works your using and always include information in your projects.
+Note about licences : take care of the licences of works you're using and always include information in your projects.
 Pay attention to following licences limitations :
 
 * can it be used for commercial purpose ?

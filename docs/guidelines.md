@@ -47,6 +47,7 @@ If for some reasons, some parts of your patch doesn't work or require manual ste
 * submission date deadline : -1 point per day late
 * delivery zip file size : -1 point if more than 100 MB
 * missing documentation or incomplete : -1 point
+* missing audio files licences or licence issues: - 1 point
 * some errors in PD console : -1 point
 	
 **Bonus points : (2 points)**

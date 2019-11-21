@@ -41,6 +41,7 @@ Some [MGSX](http://www.mgsx.net/) applications based on PD :
 * Get the list of PD objects : **Help/List of objects...**
 * right click on a pd object to get help (you can write your own help file by creating a patch with the same name suffixed by **-help.pd**)
 * find an object by its name : menu **Find/Find...**
+* examples and all object documentation can be found in **Help/Browser/PureData/**
 * watchout the PD console (the main window) : it print some errors.
 
 ## PD GUI
@@ -57,6 +58,9 @@ Some [MGSX](http://www.mgsx.net/) applications based on PD :
 
 Some usefull resources about PD :
 
+* Puredata Official Documentation:
+  * [English version](http://write.flossmanuals.net/pure-data)
+  * [French version](https://fr.flossmanuals.net/puredata)
 * [Textual Tutorials](http://www.pd-tutorial.com/english/index.html)
 * [Video Tutorials](https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC)
 * [a SFX generator tutorial](http://www.mgsx.net/articles/pd/bfxr-like-with-pd/bfxr-like-with-pd.html)

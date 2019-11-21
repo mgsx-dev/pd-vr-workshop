@@ -1,0 +1,24 @@
+#N canvas 758 317 548 489 10;
+#X obj 110 65 hsl 128 15 0 10 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 124 89 5 0 0 0 - - -, f 5;
+#X obj 107 131 vmetro;
+#X obj 107 182 random 1000;
+#X msg 107 301 play 2.122 2.5 \$1;
+#X obj 107 370 sampler1~ samples/foots-mono.wav 48000;
+#X obj 96 419 dac~;
+#X text 107 40 walk speed;
+#X text 178 131 generate bangs based on speed;
+#X obj 107 205 / 1000;
+#X obj 107 227 lerp 0.8 1.2;
+#X text 223 205 generate a random pitch;
+#X text 242 301 play a single footstep with varying pitch;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 9 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 5 0 6 1;
+#X connect 9 0 10 0;
+#X connect 10 0 4 0;

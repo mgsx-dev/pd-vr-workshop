@@ -1,4 +1,4 @@
-#N canvas 99 223 1801 403 10;
+#N canvas 96 227 1801 403 10;
 #N canvas 475 437 395 449 network 0;
 #X msg 25 113 listen 3000;
 #X msg 58 150 listen 0;
@@ -79,10 +79,6 @@ level (in meters), f 18;
 #X obj 1573 148 route LAND WATER AIR;
 #X obj 1573 126 list trim;
 #X obj 1573 219 unpack f f f f;
-#X text 1551 15 nearset animals (max 3 per type) : type (LAND WATER
-AIR) \, index (0 \, 1 \, 2) \, state (IDLE STROLL FLEE) \, position
-(x \, y \, z) \, occlusion (0 or 1), f 28;
-#X obj 1573 194 route STROLL FLEE IDLE;
 #X text 13 108 Library help;
 #X msg 1112 73 -1219 0 2306;
 #X obj 1112 41 loadbang;
@@ -90,6 +86,10 @@ AIR) \, index (0 \, 1 \, 2) \, state (IDLE STROLL FLEE) \, position
 #X obj 1112 95 vec3;
 #X text 815 16 surrounding forest and water sensor (0 to 1), f 13
 ;
+#X obj 1573 194 route STROLL FLEE;
+#X text 1551 15 nearset animals (max 3 per type) : type (LAND WATER
+AIR) \, index (0 \, 1 \, 2) \, state (STROLL FLEE) \, position (x \,
+y \, z) \, occlusion (0 or 1), f 28;
 #X connect 1 0 2 0;
 #X connect 3 0 33 0;
 #X connect 4 0 5 0;
@@ -114,7 +114,7 @@ AIR) \, index (0 \, 1 \, 2) \, state (IDLE STROLL FLEE) \, position
 #X connect 32 0 22 0;
 #X connect 33 0 4 0;
 #X connect 36 0 42 0;
-#X connect 37 0 45 0;
+#X connect 37 0 50 0;
 #X connect 38 0 39 0;
 #X connect 41 0 37 0;
 #X connect 42 0 41 0;
@@ -122,6 +122,6 @@ AIR) \, index (0 \, 1 \, 2) \, state (IDLE STROLL FLEE) \, position
 #X connect 43 1 38 1;
 #X connect 43 2 38 2;
 #X connect 43 3 40 0;
-#X connect 45 0 43 0;
-#X connect 47 0 50 0;
-#X connect 48 0 47 0;
+#X connect 45 0 48 0;
+#X connect 46 0 45 0;
+#X connect 50 0 43 0;

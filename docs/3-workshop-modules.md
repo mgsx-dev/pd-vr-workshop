@@ -1,6 +1,3 @@
-# All together
-
-A convenient library is provided to speedup developement, see **help.pd**
 
 # Workshop
 
@@ -13,7 +10,7 @@ Let's play with the openworld !
 
 ## 1 - Simple map toggle SFX
 
-please read [audio basics](audio-basics.md) and [messaging basics](messaging-basics.md) first.
+please read [Puredata basics](puredata-basics.md), [audio basics](audio-basics.md) and [messaging basics](messaging-basics.md) first.
 
 Goal:
 * play 2 differents procedural sounds on mini map toggle on/off (Space key in game)

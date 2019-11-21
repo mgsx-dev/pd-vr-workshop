@@ -1,4 +1,4 @@
-# Hand on PD (Part 2)
+# Messaging Basics
 
 ## About the events graph
 

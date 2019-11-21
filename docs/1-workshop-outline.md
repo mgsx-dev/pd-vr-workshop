@@ -1,5 +1,5 @@
 
-# Hands on VR
+# Outline
 
 ## prerequisites
 

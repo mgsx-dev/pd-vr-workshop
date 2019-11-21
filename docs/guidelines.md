@@ -1,6 +1,6 @@
 # Guidelines
 
-**Write documenation **
+**Write documenation**
 
 It could be helpfull to write a documentation about your patch : how it works, is there some bugs or limitations, ...
 

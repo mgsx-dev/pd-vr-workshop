@@ -1,0 +1,42 @@
+#N canvas 513 258 633 749 10;
+#X obj 74 122 delay-min 2000;
+#X obj 74 184 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 74 17 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 112 15 <- send several fast bangs;
+#X text 113 183 <- receive up to one bang every 2 seconds;
+#X text 195 121 minimum delay in milliseconds between 2 bangs;
+#X text 167 65 change initial delay;
+#X obj 169 87 nbx 5 14 100 1e+37 0 1 empty empty empty 0 -8 0 10 -262144
+-1 -1 1741 256;
+#X obj 74 422 delay-min 2000;
+#X obj 74 451 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 74 312 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 74 333 t b b;
+#X obj 169 373 random 1000;
+#X obj 169 395 + 500;
+#X floatatom 194 429 5 0 0 0 - - -, f 5;
+#X text 71 283 Another example with random delay (500ms to 1500ms)
+;
+#X obj 73 583 delay-min 2000;
+#X obj 73 635 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 70 531 It works with any kind of messages;
+#X msg 73 553 alpha 36 32;
+#X obj 107 634 print;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 7 0 0 1;
+#X connect 8 0 9 0;
+#X connect 10 0 11 0;
+#X connect 11 0 8 0;
+#X connect 11 1 12 0;
+#X connect 12 0 13 0;
+#X connect 13 0 8 1;
+#X connect 13 0 14 0;
+#X connect 16 0 17 0;
+#X connect 16 0 20 0;
+#X connect 19 0 16 0;

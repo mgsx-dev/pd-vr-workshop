@@ -42,7 +42,7 @@ see **example-chest-detector.pd**
 
 ## 3 - Ambiant soundscape
 
-please read [Working with audio files](working-with-audio-files.md.md) first.
+please read [Working with audio files](working-with-audio-files.md) first.
 
 Goal:
 * play some audio soundscape to improve ingame immersion based on water and/or forest and/or altitude.

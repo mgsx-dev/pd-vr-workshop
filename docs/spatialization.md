@@ -1,7 +1,7 @@
 
 # Audio spatialization
 
-In this workshop, we will approximate some of audio spatialization concepts. For a quick understanding, please read [this Oculus Documentation page](https://developer.oculus.com/documentation/audiosdk/latest/concepts/audio-intro-localization/). Other pages have useful information as well.
+In this workshop, we will approximate some of audio spatialization concepts. For a quick understanding, please read [this Oculus Documentation page](https://developer.oculus.com/resources/audio-intro-localization/). Other pages have useful information as well.
 
 For a full understanding you can read [this article](https://en.wikipedia.org/wiki/Sound_localization)
 

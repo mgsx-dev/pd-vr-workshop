@@ -59,10 +59,9 @@ If for some reasons, some parts of your patch doesn't work or require manual ste
 * readability (subpatch and abstraction) : 2 points
 * global balance of all sounds : 1 point 
 	
-**Points for spatialization and FX : (5 points)**
+**Points for spatialization and FX : (4 points)**
 * Lateral localization : 2 point
 * Distance localization : 1 point
-* Reverberation : 1 point
 * Underwater FX : 1 point
 	
 **Points per module : (10 points)**

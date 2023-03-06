@@ -1,4 +1,4 @@
-#N canvas 65 81 450 300 10;
+#N canvas 51 87 1869 993 10;
 #X obj 152 46 r camera;
 #X obj 152 68 unpack f f f f f f f f f;
 #X obj 75 144 pack f f f;
@@ -7,9 +7,10 @@
 #X obj 31 238 outlet position;
 #X obj 193 211 outlet direction;
 #X obj 323 227 outlet up;
+#X obj 132 108 + 1.77;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
-#X connect 1 1 2 1;
+#X connect 1 1 8 0;
 #X connect 1 2 2 2;
 #X connect 1 3 3 0;
 #X connect 1 4 3 1;
@@ -20,3 +21,4 @@
 #X connect 2 0 5 0;
 #X connect 3 0 6 0;
 #X connect 4 0 7 0;
+#X connect 8 0 2 1;

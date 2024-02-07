@@ -46,11 +46,11 @@ Some [MGSX](http://www.mgsx.net/) applications based on PD :
 
 ## PD GUI
 
-* [CTRL+Z] : IMPORTANT : one only undo level
-* [CTRL+SHIFT+1] : create an object (autoconnect first outlet of current sleection)
-* [CTRL+SHIFT+...] : see menu **
+* [CTRL+Z] : undo
+* [CTRL+SHIFT+1] : create an object (auto-connect first outlet of current sleection)
+* [CTRL+SHIFT+...] : see menu *Put*
 * [CTRL+E] : switch to edit mode / play mode
-* [CTRL+Click Left] : contextual play mode (usefull to change control in edit mode)
+* [CTRL+Click Left] : contextual play mode (useful to change control in edit mode)
 * [Click left] (in play mode) : act on controller or send message
 * [Shift + Click left] (in play mode) : fine grain control
 

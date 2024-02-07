@@ -8,7 +8,7 @@
     * If not, just download it as ZIP and extract it on your computer.
 * You need to [download and extract the latest version](https://github.com/mgsx-dev/pd-vr-workshop/releases) of the game and follow instructions provided in the zip file.
 * required software :
-    * [Pure Data vanilla 0.47.x](https://puredata.info/downloads/pure-data/releases)
+    * [Pure Data vanilla 0.52+](https://puredata.info/downloads/pure-data/releases)
     * Java 1.7+
     * [Audacity](http://www.audacityteam.org/download/)
 
